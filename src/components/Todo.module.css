@@ -1,0 +1,90 @@
+.taskItem {
+    display: flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 12px;
+    justify-content: center;
+    background: #262626;
+    border: 1px solid #333333;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    }
+    
+    .taskItem > p {
+      font-size: 14px;
+      flex: 1;
+      line-height: 140%;
+      
+      
+      
+    }
+
+    .taskComplete {
+      text-decoration-line: line-through;
+      color: var(--gray-300);
+    }
+
+    .taskItem .buttonRadio
+     {
+        background: none;         
+        border: 2px solid var(--blue);        
+        color: var(--gray-300);        
+        cursor: pointer;
+        line-height: 0;
+        
+    }
+
+    .btnComplete {
+      background: var(--purple-dark);
+        /* border: 2px solid var(--blue); */
+        border: 2px solid transparent; 
+        /* color: var(--gray-300); */
+        color: var(--gray-100);
+        cursor: pointer;
+        line-height: 0;
+        border-radius: 9999px;
+    }
+
+    .btnComplete svg {
+      padding: 3px;
+    }
+
+    .btnComplete:hover {
+      background-color: var(--purple);
+    }
+
+    .taskItem .buttonRadio svg{
+      opacity: 0;
+    }
+
+    .taskItem .buttonRadio {
+      border-radius: 9999px;
+  }
+
+  .taskItem .buttonRadio:hover {
+      background-color: var(--blue-dark);           
+      opacity: 0.7; 
+     
+    }
+
+    .taskItem .buttonTrash {
+        color: var(--gray-300);
+        background: transparent;
+        border: 0;
+        cursor: pointer;
+        line-height: 0;
+        padding: 3px;
+    }
+
+    
+
+    .taskItem .buttonTrash:hover {
+        background: #333333;
+        border-radius: 4px;
+        color: var(--danger);
+        padding: 3px;
+    }
+
+    
+    
+    
