@@ -26,7 +26,7 @@
 > **1.0.** Clone o Repositório:
 
 ```bash
-git clone https://github.com/tavareshenrique/ignite-reactjs-challenge-01-todo-list
+git clone https://github.com/Mr1984-Pinheiro/Desafio-Praticando-Conceitos.git
 ```
 
 > **1.1.** Instale as dependências:
@@ -60,7 +60,7 @@ yarn dev ou npm run dev
   <tr>
     <td align="center">
       <a href="">
-        <img src="" width="100px;" alt="Henrique Tavares"/>
+        <img src="" width="100px;" alt="Carlos Pinheiro"/>
         <br />
         <sub>
           <b>Carlos Pinheiro</b>
